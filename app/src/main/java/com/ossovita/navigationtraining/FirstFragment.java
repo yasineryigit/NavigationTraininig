@@ -29,7 +29,7 @@ public class FirstFragment extends Fragment {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                NavDirections directions = FirstFragmentDirections .actionFirstFragmentToSecondFragment();
+                NavDirections directions = FirstFragmentDirections.actionFirstFragmentToSecondFragment();
                 Navigation.findNavController(view).navigate(directions);
 
             }
